@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    position: relative;
+  }
+  
+  #canvas {
+    box-shadow: 1px 1px 10px black;
+  }
+  
+  #buttons {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    text-align: center;
+  }
+  
+  #buttons > button {
+    font-family: "Staatliches", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f08080;
+    background-color: #fdedec;
+    border: 3px solid #fadbd8;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
